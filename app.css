@@ -3,4 +3,5 @@ body{
 }
 html{
     font-family: 'arial', Courier, monospace;
+    box-sizing: border-box;
 }
