@@ -1,3 +1,6 @@
 body{
     background:rgb(11, 135, 167);
 }
+html{
+    font-family: 'arial', Courier, monospace;
+}
