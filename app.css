@@ -86,3 +86,32 @@ body{
     max-width:100%;
     
 }
+.pricing-header{
+    color: gray;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.pricing-features{
+    margin:50px 0 25px;
+    color: rgb(11, 135, 167);
+    
+}
+.pricing-features-item{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    border-top:1px solid gray;
+    line-height:1.5;
+    padding:15px 0;
+    
+
+}
+.pricing-features-item:last-child{
+    border-bottom:1px solid gray;
+}
+.pricing-price{
+    color: rgb(11, 135, 167);
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
