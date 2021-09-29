@@ -142,3 +142,21 @@ body{
     background-color:rgb(11, 135, 167);
 
 }
+@media(min-width:900px)
+{
+    .panel{
+        flex-direction: row;
+    }
+    .pricing-plan{
+        border-bottom: none;
+        border-right:1px solid gray;
+        padding:0 50px;
+        
+    }
+    .pricing-plan:last-child{
+        border-bottom: none;
+        border-right:none;
+        
+        
+    }
+}
