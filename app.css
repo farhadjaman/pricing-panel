@@ -63,8 +63,7 @@ body{
     max-width: 960px;
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   
     
 }
 .pricing-plan
@@ -76,6 +75,8 @@ body{
     padding-top: 10px;
     text-align: center;
     text-transform: uppercase;
+    align-items: center;
+
 }
 .pricing-plan:last-child
 {
@@ -114,4 +115,30 @@ body{
     display: block;
     font-size: 32px;
     font-weight: 700;
+}
+ .pricing-button{
+     color: white;
+    border:2px solid rgb(116, 193, 238);
+    border-radius: .7em;
+    background: rgb(11, 135, 167);
+    padding:.5em 1.4em;
+    text-decoration: none;
+    margin:.7em 0;
+    transition: background-color 200ms ease-in-out ;
+    
+
+}
+.pricing-button:hover{
+    background-color:rgb(71, 210, 245);
+}
+.pricing-button.is-featured{
+    background: white;
+    color:rgb(11, 135, 167);
+    transition:background-color 200ms ease-in-out ;
+    /* transition:color 200ms ease-in-out ; */
+}
+.pricing-button.is-featured:hover,.pricing-button.is-featured:focus{
+    color: white;
+    background-color:rgb(11, 135, 167);
+
 }
